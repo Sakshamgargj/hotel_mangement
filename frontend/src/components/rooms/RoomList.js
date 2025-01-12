@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react'
 import { RoomCard } from './RoomCard'
 import { FilterSidebar } from './FilterSidebar'
-import { api } from '@/lib/api'
+// import { api } from '@/lib/api'
 
 export const RoomList = () => {
   const [rooms, setRooms] = useState([])
