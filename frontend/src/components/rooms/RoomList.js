@@ -1,7 +1,7 @@
 "use client"
 import { useState, useEffect } from 'react'
 import { RoomCard } from './RoomCard'
-import { FilterSidebar } from './FilterSidebar'
+// import { FilterSidebar } from './FilterSidebar'
 // import { api } from '@/lib/api'
 
 export const RoomList = () => {
@@ -35,7 +35,7 @@ export const RoomList = () => {
   return (
     <div className="container bg-black mx-auto px-4 py-8">
       <div className="flex gap-8">
-        <FilterSidebar filters={filters} onFilterChange={setFilters} />
+        {/* <FilterSidebar filters={filters} onFilterChange={setFilters} /> */}
         <div className="flex-1">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {rooms.map((room) => (
