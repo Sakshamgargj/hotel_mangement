@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { Pannellum } from "pannellum-react";
+// import { Pannellum } from "pannellum-react";
 
 const FeaturedRoom = () => {
     const [currentScene, setCurrentScene] = useState("/images/pannellum/room3.jpg");
@@ -10,8 +10,8 @@ const FeaturedRoom = () => {
     };
 
     return (
-        <div className="h-screen w-full p-10 flex items-center justify-center bg-gradient-to-b from-black/100 via-black/40 to-black/10">
-            <Pannellum
+        <div className="h-auto w-full p-10 flex items-center justify-center bg-black to-black/10">
+            {/* <Pannellum
                 width="100%"
                 height="100%"
                 image={currentScene}
@@ -36,7 +36,7 @@ const FeaturedRoom = () => {
                     yaw={-20}
                     handleClick={() => toggleScene(currentScene === "/images/pannellum/room2.jpg" ? "/images/pannellum/room1.jpg" : "/images/pannellum/room2.jpg")}
                 />
-            </Pannellum>
+            </Pannellum> */}
         </div>
     );
 };
