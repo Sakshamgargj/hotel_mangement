@@ -1,3 +1,4 @@
+"use client"
 import { useState, useEffect } from 'react'
 import { RoomCard } from './RoomCard'
 import { FilterSidebar } from './FilterSidebar'

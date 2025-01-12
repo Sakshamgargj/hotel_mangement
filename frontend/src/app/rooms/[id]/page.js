@@ -3,7 +3,7 @@
 
 import { useState, useEffect } from 'react'
 import { useParams } from 'next/navigation'
-import { BookingForm } from '@/components/booking/BookingForm'
+// import { BookingForm } from '@/components/booking/BookingForm'
 import { RoomGallery } from '@/components/rooms/RoomGallery'
 import { RoomAmenities } from '@/components/rooms/RoomAmenities'
 import { api } from '@/lib/api'
@@ -50,7 +50,7 @@ export default function RoomDetailPage() {
                 <span className="text-3xl font-bold">${room.price}</span>
                 <span className="text-gray-600">/night</span>
               </div>
-              <BookingForm roomId={id} price={room.price} />
+              {/* <BookingForm roomId={id} price={room.price} /> */}
             </div>
           </div>
         </div>
